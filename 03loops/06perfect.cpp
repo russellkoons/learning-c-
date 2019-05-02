@@ -16,4 +16,6 @@ int main()
   }
 
   cout << "Sum of factors is " << sum << endl;
+  if (2 * n == sum)
+    cout << "It is also a perfect number" << endl;
 }
