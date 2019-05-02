@@ -9,5 +9,4 @@ int main()
   cin >> b >> h;
   a = (b * h) / 2;
   cout << "The area is " << a << "\n";
-  return 0;
 }
