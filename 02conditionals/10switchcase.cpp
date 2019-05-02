@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Faster than else if statements
+
 using namespace std;
 
 int main()
