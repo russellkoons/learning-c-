@@ -16,8 +16,6 @@ int main()
     if (b < c)
       cout << "Max is " << c << endl;
     else
-    {
-      cout << "Max is " << b << endl; 
-    }
+      cout << "Max is " << b << endl;
   }
 }
