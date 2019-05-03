@@ -1,3 +1,4 @@
-  // int (*fr)(int, int);
-  // fr = min;
-  // (*fr)(10, 5);
+nt min(int x, int y)
+{
+  return x < y ? x : y;
+}
