@@ -2,6 +2,15 @@
 
 using namespace std;
 
+// types of Functions you can put in a class
+  // Non-parametized Constructor
+  // Parametized Contructor
+  // Copy Constructor
+  // Mutators - set
+  // Accessors - get
+  // Facilitators - area, perimeter
+  // Inspector - Check is square or not - boolean
+
 class Rectangle
 { public: // If you don't include public it is private and cannot be accessed outside the class
   int length;
