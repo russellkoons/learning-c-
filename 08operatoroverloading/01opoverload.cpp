@@ -6,12 +6,10 @@ using namespace std;
 
 class Complex
 {
-  private:
+  public:
 
     int real;
     int img;
-
-  public:
 
     Complex(int r = 0, int i = 0)
     {
@@ -41,5 +39,8 @@ int main()
   Complex c1(3, 7);
   Complex c2(5, 4);
   Complex c3 = c1.add(c2);
-  Complex c4 = c3 + c2; // This will work the same way because of the operator+ function
+  Complex c4 = c1 + c2; // This will work the same way because of the operator+ function
+
+  cout << c3.real << " + i" << c3.img << endl;
+  cout << c4.real << " + i" << c4.img << endl;
 }
