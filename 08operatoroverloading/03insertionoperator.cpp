@@ -19,7 +19,7 @@ class Complex
       img = i;
     }
 
-    friend ostream& operator<<(ostream &o, Complex &c1);
+    friend ostream & operator<<(ostream &o, Complex &c1);
 };
 
 ostream& operator<<(ostream &o, Complex &c1)
