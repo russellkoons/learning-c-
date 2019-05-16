@@ -23,6 +23,11 @@ class Derived:public Base
       cout << "Default of Derived" << endl;
     }
 
+    Derived(int a)
+    {
+      cout << "Param of Derived " << a << endl;
+    }
+
     Derived(int x, int a):Base(x) // This is how you pass something down via inheritance
     {
       cout << "Param of Derived " << a << endl;
@@ -32,5 +37,6 @@ class Derived:public Base
 int main()
 {
   Derived d;
-  Derived e(10, 15);
+  Derived e(10);
+  Derived f(10, 15);
 }
