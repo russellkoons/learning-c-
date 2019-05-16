@@ -6,10 +6,10 @@ using namespace std;
 
 class Base
 {
-  private: // Only accessible here
+  private: // Only accessible inside class
     int a;
 
-  protected: // Accessible from inheritance but not main
+  protected: // Accessible inside derived class
     int b;
 
   public: // Always accessible
