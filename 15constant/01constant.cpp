@@ -28,7 +28,6 @@ int main()
   const int x = 10;
 
   // x++; Cannot modify the constant
-
   cout << x << endl;
 
   const int *ptr = &x;
