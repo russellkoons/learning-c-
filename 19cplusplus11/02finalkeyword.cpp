@@ -11,7 +11,7 @@ class Parent // final // Final makes it so you cannot inherit from this class
 
 class Child:Parent
 {
-  void show() {}
+  // void show() {}
 };
 
 int main()
